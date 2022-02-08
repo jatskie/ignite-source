@@ -1,0 +1,24 @@
+{
+    "name": "ignite/source",
+    "description": "Package for checking license key and update for ignite project.",
+    "authors": [
+        {
+            "name": "Jat Macalalad",
+            "email": "jat@ignitecareers.ph"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ignite\\Source\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ignite\\Source\\IgntieSourceServiceProvider"
+            ]
+        }
+    }
+}

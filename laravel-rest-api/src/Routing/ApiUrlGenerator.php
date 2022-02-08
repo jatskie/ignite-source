@@ -1,8 +1,0 @@
-<?php
-
-namespace Ignite\RestAPI\Routing;
-
-class ApiUrlGenerator extends \Illuminate\Routing\UrlGenerator
-{
-
-}
