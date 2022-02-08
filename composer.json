@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "IgniteCareers\\Source\\IgniteSourceServiceProvider"
+                "IgniteCareers\\Source\\IgniteCareersSourceServiceProvider"
             ]
         }
     }
