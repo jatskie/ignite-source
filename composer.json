@@ -1,5 +1,5 @@
 {
-    "name": "ignite/source",
+    "name": "ignitecareers/source",
     "description": "Package for checking license key and update for ignite project.",
     "authors": [
         {
@@ -9,7 +9,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Ignite\\Source\\": "src/"
+            "IgniteCareers\\Source\\": "src/"
         }
     },
     "minimum-stability": "dev",
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ignite\\Source\\IgntieSourceServiceProvider"
+                "IgniteCareers\\Source\\IgniteSourceServiceProvider"
             ]
         }
     }

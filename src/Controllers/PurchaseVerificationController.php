@@ -1,9 +1,9 @@
 <?php
 
-namespace Ignite\Source\Controllers;
+namespace IgniteCareers\Source\Controllers;
 
 use Illuminate\Routing\Controller;
-use Ignite\Source\Traits\AppBoot;
+use IgniteCareers\Source\Traits\AppBoot;
 
 class PurchaseVerificationController extends Controller
 {

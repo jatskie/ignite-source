@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\Source\Commands;
+namespace IgniteCareers\Source\Commands;
 
 use Illuminate\Console\Command;
 use File;

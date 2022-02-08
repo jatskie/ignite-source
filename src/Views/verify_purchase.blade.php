@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="control-label">Enter your Ignite purchase code</label>
+                                <label class="control-label">Enter your IgniteCareers purchase code</label>
                                 <input type="text" id="purchase_code" name="purchase_code" class="form-control">
                             </div>
                         </div>

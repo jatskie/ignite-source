@@ -1,14 +1,14 @@
 <?php
 
-namespace Ignite\Source;
+namespace IgniteCareers\Source;
 
-use Ignite\Source\Commands\MigrateCheckCommand;
-use Ignite\Source\Commands\NewVersion;
-use Ignite\Source\Commands\NewVersionModule;
-use Ignite\Source\Commands\VendorCleanUpCommand;
+use IgniteCareers\Source\Commands\MigrateCheckCommand;
+use IgniteCareers\Source\Commands\NewVersion;
+use IgniteCareers\Source\Commands\NewVersionModule;
+use IgniteCareers\Source\Commands\VendorCleanUpCommand;
 use Illuminate\Support\ServiceProvider;
 
-class IgniteSourceServiceProvider extends ServiceProvider
+class IgniteCareersSourceServiceProvider extends ServiceProvider
 {
     /**
      * Register services.

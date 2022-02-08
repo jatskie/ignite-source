@@ -1,8 +1,8 @@
 <?php
 
-namespace Ignite\Source\Controllers;
+namespace IgniteCareers\Source\Controllers;
 
-use Ignite\Source\Helpers\Reply;
+use IgniteCareers\Source\Helpers\Reply;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Carbon\Carbon;

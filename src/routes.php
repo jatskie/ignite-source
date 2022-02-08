@@ -1,6 +1,6 @@
 <?php
 
-Route::group(['namespace' => 'Ignite\Source\Controllers', 'middleware' => 'web'], function () {
+Route::group(['namespace' => 'IgniteCareers\Source\Controllers', 'middleware' => 'web'], function () {
 
     Route::get('verify-purchase', ['uses' => 'PurchaseVerificationController@verifyPurchase'])->name('verify-purchase');
     Route::post('purchase-verified', ['uses' => 'PurchaseVerificationController@purchaseVerified'])->name('purchase-verified');

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ignite\Source\Traits;
+namespace IgniteCareers\Source\Traits;
 
 use App\Setting;
-use Ignite\Source\Helpers\Reply;
+use IgniteCareers\Source\Helpers\Reply;
 use GuzzleHttp\Client;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;

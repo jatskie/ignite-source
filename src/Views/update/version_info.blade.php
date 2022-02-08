@@ -1,5 +1,5 @@
-@php($updateVersionInfo = \Ignite\Source\Functions\SourceUpdate::updateVersionInfo())
-@php($sourceUpdateCompanySetting = \Ignite\Source\Functions\SourceUpdate::companySetting())
+@php($updateVersionInfo = \IgniteCareers\Source\Functions\SourceUpdate::updateVersionInfo())
+@php($sourceUpdateCompanySetting = \IgniteCareers\Source\Functions\SourceUpdate::companySetting())
 <div class="table-responsive">
 
     <table class="table table-bordered">

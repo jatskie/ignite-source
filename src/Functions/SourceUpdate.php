@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\Source\Functions;
+namespace IgniteCareers\Source\Functions;
 
 use GuzzleHttp\Client;
 use Carbon\Carbon;

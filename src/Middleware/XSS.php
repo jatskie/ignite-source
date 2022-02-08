@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\Source\Middleware;
+namespace IgniteCareers\Source\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

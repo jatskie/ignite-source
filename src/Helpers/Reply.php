@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\Source\Helpers;
+namespace IgniteCareers\Source\Helpers;
 
 use Illuminate\Contracts\Validation\Validator;
 

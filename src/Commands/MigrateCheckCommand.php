@@ -1,6 +1,6 @@
 <?php
 
-namespace Ignite\Source\Commands;
+namespace IgniteCareers\Source\Commands;
 
 use File;
 use Illuminate\Database\Console\Migrations\BaseCommand;

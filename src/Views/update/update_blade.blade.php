@@ -1,4 +1,4 @@
-@php($sourceUpdateCompanySetting = \Ignite\Source\Functions\SourceUpdate::companySetting())
+@php($sourceUpdateCompanySetting = \IgniteCareers\Source\Functions\SourceUpdate::companySetting())
 
 @if(!is_null($sourceUpdateCompanySetting->supported_until))
     <div class="col-md-12" id="support-div">
@@ -26,7 +26,7 @@
     </div>
 @endif
 
-@php($updateVersionInfo = \Ignite\Source\Functions\SourceUpdate::updateVersionInfo())
+@php($updateVersionInfo = \IgniteCareers\Source\Functions\SourceUpdate::updateVersionInfo())
 @if(isset($updateVersionInfo['lastVersion']))
     <div class="alert alert-danger col-md-12">
         <p> @lang('messages.updateAlert')</p>
